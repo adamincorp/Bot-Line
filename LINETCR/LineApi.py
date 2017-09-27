@@ -311,7 +311,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("MikanBOT")
+      print("FluzzyBOT")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
