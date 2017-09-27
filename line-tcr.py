@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" Fluzzy Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -76,7 +76,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["u5aa2d0aa38b6566631c797f0334ae415"]
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -92,7 +92,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":"IG : Muhammadalviann ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -718,7 +718,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done Chivas")
+                        ki.sendText(msg.to,"Done Fluzzy")
                     else:
                         ki.sendText(msg.to,"already close")
                 else:
@@ -732,7 +732,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done Chivas")
+                        kk.sendText(msg.to,"Done Fluzzy")
                     else:
                         kk.sendText(msg.to,"already close")
                 else:
@@ -746,7 +746,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kc.sendText(msg.to,"Done Chivas")
+                        kc.sendText(msg.to,"Done Fluzzy")
                     else:
                         kc.sendText(msg.to,"already close")
                 else:
@@ -812,7 +812,7 @@ def bot(op):
                 kk.sendText(msg.to,Bmid)
             elif "Cv3 mid" == msg.text:
                 kc.sendText(msg.to,Cmid)
-            elif msg.text in ["Wkwk"]:
+            elif msg.text in ["Wkwk","wkwk","Wkwkwk","wkwkwk","Haha","haha","Hahaha","hahaha"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -821,7 +821,7 @@ def bot(op):
                                      "STKVER": "100" }
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
-            elif msg.text in ["Hehehe"]:
+            elif msg.text in ["Hehe","hehe"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -848,7 +848,7 @@ def bot(op):
                                      "STKVER": "100" }
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
-            elif msg.text in ["Hadeuh"]:
+            elif msg.text in ["Hadeh"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -857,7 +857,7 @@ def bot(op):
                                      "STKVER": "100" }
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
-            elif msg.text in ["Please"]:
+            elif msg.text in ["Please","please","pls","Pls"]:
                 msg.contentType = 7
                 msg.text = None
                 msg.contentMetadata = {
@@ -1321,7 +1321,7 @@ def bot(op):
                 else:
                     cl.sendText(msg.to,"Please turn on the name clock")
 
-            elif msg.text == "$set":
+            elif msg.text == "$Check":
                     cl.sendText(msg.to, "Check sider")
                     ki.sendText(msg.to, "Check sider")
                     kk.sendText(msg.to, "Check sider")
@@ -1335,7 +1335,7 @@ def bot(op):
                     wait2['readMember'][msg.to] = ""
                     wait2['ROM'][msg.to] = {}
                     print wait2
-            elif msg.text == "$read":
+            elif msg.text == "$Point":
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
                             chiya = ""
@@ -1345,9 +1345,9 @@ def bot(op):
                                 print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "People who readed %s\nthat's it\n\nPeople who have ignored reads\n%sIt is abnormal ♪\n\nReading point creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "=====Tercyduck===== %s\n=====Tukang Ngintip=====\n%sJangan Sider Dong ♪\n\nReading point creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "An already read point has not been set.\n「set」you can send ♪ read point will be created ♪")
+                        cl.sendText(msg.to, "Check Sider : On")
 #-----------------------------------------------
 
 #-----------------------------------------------
@@ -1627,25 +1627,8 @@ def bot(op):
                 kc.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
 
 #-----------------------------------------------
-
-            elif msg.text in ["Cv say hinata pekok"]:
-                ki.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
-            elif msg.text in ["Cv say didik pekok"]:
-                ki.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Didik pekok 􀜁􀅔Har Har􏿿")
-            elif msg.text in ["Cv say bobo ah","Bobo dulu ah"]:
-                ki.sendText(msg.to,"Have a nice dream Cv 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Have a nice dream Cv 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Have a nice dream Cv 􀜁􀅔Har Har􏿿")
-            elif msg.text in ["Cv say chomel pekok"]:
-                ki.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
             elif msg.text in ["#welcome"]:
-                ki.sendText(msg.to,"Selamat datang di Chivas Family Room")
+                ki.sendText(msg.to,"Selamat datang")
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
